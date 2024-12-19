@@ -1,0 +1,8 @@
+COMMIT - 1
+********************************************************************************************
+
+- Creating Login and Register Screen Component using Resuable Button and InputField Component.
+- In this we are using React useState hook to access input field values.
+- Using react-native-size-matters plugin for adjustable styling dimensions.
+
+********************************************************************************************
