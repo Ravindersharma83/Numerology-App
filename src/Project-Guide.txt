@@ -6,3 +6,25 @@ COMMIT - 1
 - Using react-native-size-matters plugin for adjustable styling dimensions.
 
 ********************************************************************************************
+
+COMMIT - 2
+********************************************************************************************
+- Setting up navigation (Stack and Drawer)
+ - Updated package file for the both navigation :-
+   "dependencies": {
+    "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "react": "18.2.0",
+    "react-native": "0.72.4",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-reanimated": "3.3",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "^4.3.0",
+    "react-native-size-matters": "^0.4.2"
+  },
+
+  -In babel.config.js add below code
+   - plugins: ['react-native-reanimated/plugin']
+
+*********************************************************************************************
