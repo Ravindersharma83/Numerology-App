@@ -1,13 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import LoginScreen from './src/Screens/LoginScreen/LoginScreen'
-import RegisterScreen from './src/Screens/RegisterScreen/RegisterScreen'
+import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import Routes from './src/Navigation/Routes';
 
 const App = () => {
   return (
     <View style={{ flex: 1}}>
-      {/* <LoginScreen/> */}
-      <RegisterScreen/>
+      <Routes/>
     </View>
   )
 }
